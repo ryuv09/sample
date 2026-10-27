@@ -46,3 +46,14 @@ a {
     margin: 0 auto;
     padding: 0 16px;
 }
+
+.header {
+    padding: 16px 0;
+    background-color: var(--color-white);
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
