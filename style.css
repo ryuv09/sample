@@ -77,3 +77,9 @@ a {
 .nav-list a:hover {
     color: var(--color-main);
 }
+.about-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
