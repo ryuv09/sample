@@ -106,13 +106,11 @@ a {
     color: var(--color-main);
 }
 
-
 .skills-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
-
 
 .works-item {
     padding: 0 0 24px 24px;
