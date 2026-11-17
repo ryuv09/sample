@@ -150,3 +150,31 @@ html {
     font-size: 14px;
     color: var(--color-white);
 }
+
+@media (max-width: 768px) {
+    .header-inner {
+    flex-direction: column;
+    gap: 8px;
+    }
+
+    .nav-list {
+    gap: 16px;
+    }
+
+    .about {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .skills-list {
+    grid-template-columns: 1fr;
+    }
+
+    .section {
+    padding: 40px 0;
+    }
+
+    .section-title {
+    font-size: 24px;
+    }
+}
